@@ -1,0 +1,35 @@
+{
+  "name": "emo-site",
+  "version": "1.0.0",
+  "description": "Full stack vue and express emo app",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "nodemon server/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amir-aliyu/emo-site.git"
+  },
+  "keywords": [
+    "emo",
+    "vue",
+    "app"
+  ],
+  "author": "Amir Aliyu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amir-aliyu/emo-site/issues"
+  },
+  "homepage": "https://github.com/amir-aliyu/emo-site#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "mongodb": "^6.5.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
