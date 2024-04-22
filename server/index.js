@@ -12,6 +12,15 @@ const posts = require('./routes/api/posts');
 
 app.use('/api/posts', posts);
 
+// Handle production
+if(process.env.NODE_ENV === 'production') {
+    // Static folder
+    app.use(express.static(__dirname + '/public'));
+
+    // handle SPA
+    app.get(/.*/, (req, res) => res.sendFile(__dirname + '/public/index.html')); // refers to any route at all
+}
+
 app.get('/', (req, res) => {
     res.send('Hello World!');
 });
