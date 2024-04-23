@@ -19,7 +19,7 @@
     "mongodb": "^6.5.0",
     "vue": "^3.3.0",
     "vuetify": "^3.5.16",
-    "vuetify-loader": "^1.9.2"
+    "vuetify-loader": "^2.0.0"
   },
   "devDependencies": {
     "nodemon": "^3.1.0",
