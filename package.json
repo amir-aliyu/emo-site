@@ -1,6 +1,9 @@
 {
   "name": "emo-site",
   "version": "1.0.0",
+  "engines": {
+    "node": "20.x"
+  },
   "description": "Full stack vue and express emo app",
   "author": "Amir Aliyu",
   "scripts": {
