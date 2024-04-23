@@ -1,5 +1,5 @@
 <template>
-  <v-container >
+  <v-app> <v-container >
     <img alt="fancy trim" src="./assets/trimming.png"> 
     <h1 class="almendra-sc-regular big-font">Enter Your Secrets...</h1>
     <img alt="Emo logo" src="./assets/emo-image.png">
@@ -20,7 +20,8 @@
         />-->
   
         
-</v-container>
+</v-container></v-app>
+  
   
   
 </template>
